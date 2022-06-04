@@ -1,0 +1,595 @@
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+          }
+    .header{
+      max-width: 1200px;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .col__container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .flex1 {
+      display: flex;
+      flex-direction: row;
+      margin-left: 0px;
+      width: 190px;
+      align-items: center;
+    }
+      /*LOGO*/    
+    .flex-element-1 {
+      border-radius: 0px;
+      height: 50px;
+      width: 60px;
+      margin: 10px;
+    }
+    .flex-element-2 {
+      height: 40px;
+      width: 150px;
+      margin: 10px;
+      font-family: 'Risque';
+      font-size: 24px;
+      background: linear-gradient(45deg, #2694A0 20%, #68357A 40%, #E28C26 60%, #B5284B 80%, #802338);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .flex2 {
+      display: flex;
+      flex-direction: row;
+      width: 333px;
+      margin-right: 40px;
+      width: 500px;
+      align-items: center;
+      justify-content: center;
+    }
+    .flex-element-3 {
+      height: 40px;
+      width: 300px;
+      font-size: 24px;
+      margin: 5px;
+    }
+    .flex-element-4 {
+       
+      height: 40px;
+      width: 600px;
+      font-size: 24px;
+      margin: 5px;
+    }
+    .flex-element-5 {
+       
+      height: 40px;
+      width: 350px;
+      font-size: 24px;
+      margin: 5px;
+    } 
+    .flex-element-6 {
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: white;
+      height: 40px;
+      width: 300px;
+      font-size: 24px;
+      margin: 5px;
+    }
+html{     
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;  
+  }
+          /* контейнер */
+          .container {
+            width: 100%;
+            max-width: 1200px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          /* flex-контейнер */
+          .row {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+          }
+           /* flex-контейнер */
+           .row1 {
+             display: -ms-flexbox;
+             display: flex;
+             -ms-flex-wrap: wrap;
+             flex-wrap: wrap;
+             margin-right: -15px;
+             margin-left: -15px;
+           }
+          /* CSS настройки flex-элементов */
+          .col {
+            position: relative;
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+          }
+          /* ширина блоков article и aside по умолчанию */
+          .col__article,
+          .col__article1,
+          .col__aside,
+          .col__alet,
+          .col__alet1,
+          .col__alet,
+          .col__container,
+          .col__block2,
+          .col__bob1,
+          .col__bob2,
+          .col__bob3,
+	        .col__bob4,
+	        .col__bob5,
+	        .col__bob6,
+	        .col__bob7,
+	        .col__bob8,
+          .col__bob9,
+          .col__bob10,
+          .col__bob11,
+          .flex1,
+          .flex2
+          
+          {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+          }
+          /* ширина блоков article и aside для больших экранов */
+          @media (min-width: 1200px) {
+          /*1/2 от ширины контейнера*/
+            .col__article {
+              -ms-flex: 50%;
+              flex: 50%;
+              max-width: 50%;
+            }
+            .col__article1 {
+              -ms-flex: 100%;
+              flex: 100%;
+              max-width: 100%;
+            }
+            .col__aside {
+              -ms-flex: 50%;
+              flex: 50%;
+              max-width: 50%;
+            }
+            .col__bob1 {
+              -ms-flex: 44%;
+              flex: 44%;
+              max-width: 44%;
+            }
+            .col__bob2 {
+              -ms-flex: 44%;
+              flex: 44%;
+              max-width: 44%;
+            }
+            .col__bob3 {
+              -ms-flex: 88%;
+              flex: 88%;
+              max-width: 88%;
+            }
+	          .col__bob4 {
+              -ms-flex: 100%;
+              flex: 100%;
+              max-width: 100%;
+            }
+	          .col__bob5 {
+              -ms-flex: 6%;
+              flex: 6%;
+              max-width: 6%;
+            }
+	          .col__bob6 {
+              -ms-flex: 6%;
+              flex: 6%;
+              max-width: 6%;
+            }
+	          .col__bob7 {
+              -ms-flex: 44%;
+              flex: 44%;
+              max-width: 44%;
+            }
+            .col__bob8 {
+              -ms-flex: 44%;
+              flex: 44%;
+              max-width: 44%;
+            }
+	          .col__bob9 {
+              -ms-flex: 100%;
+              flex: 100%;
+              max-width: 100%;
+            }
+             .col__bob10 {
+               -ms-flex: 35%;
+               flex: 35%;
+               max-width: 35%;
+             }
+             .col__left {
+               -ms-flex: 50%;
+               flex: 50%;
+               max-width: 50%;
+             }
+            /* 1/3 от ширины контейнера */
+            .col__block2 {
+              -ms-flex: 100%;
+              flex: 100%;
+              max-width: 100%;
+              height: 502px;
+            }
+            .col__block3 {
+              -ms-flex: 100%;
+              flex: 100%;
+              max-width: 100%;
+              
+            }
+            .col__alet{
+              -ms-flex: 34%;
+              flex: 34%;
+              max-width: 34%;
+            }
+            .col__alet1 {
+              -ms-flex: 30%;
+              flex: 30%;
+              max-width: 30%;
+            }
+            .col__alet2 {
+              -ms-flex: 30%;
+              flex: 30%;
+              max-width: 30%;
+            }
+            .col__alet3 {
+              -ms-flex: 4%;
+              flex: 4%;
+              max-width: 4%;
+            }
+            .flex1{
+              -ms-flex: 50%;
+              flex: 50%;
+              max-width: 50%;
+            }
+            .flex2 {
+              -ms-flex: 50%;
+              flex: 50%;
+              max-width: 50%;
+            }
+            .flex-element-2{
+              -ms-flex: 50%;
+              flex: 50%;
+              max-width: 50%;
+            }
+          }
+/*стили*/
+          .header {
+            background-color: #FABE4E;
+          }
+          .col__article {
+            background-color: #F2F2F2;
+          }
+          .col__aside {
+            background-color: #F2F2F2;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-right: 60px;
+            font-weight: bold;
+            min-height: 200px;
+          }
+          .col__alet{
+            background-color: #ede0c8;
+          }
+          .col__block2{
+            background-color: #90523C;
+            min-height: 200px;
+            padding-left: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+          }
+          .col__bob1{
+            background-color: #FABE4E;
+            font-size: 20px;
+            text-align:center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-weight: bold;
+            min-height: 200px;
+          }
+          .col__bob2{
+            background-color: #FABE4E;
+          }
+          .col__bob3{
+            background-color: #FABE4E;
+            text-align:center;
+            font-weight: bold;
+          }
+	        .col__bob4{
+            background-color: #F2F2F2;
+            text-align:center;
+            padding-left: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px
+          }
+	        .col__bob5{
+            background-color: #F2F2F2;
+          }
+	        .col__bob6{
+            background-color: #F2F2F2;
+          }
+	        .col__bob7{
+            background-color: #F2F2F2;
+            font-size: 20px; 
+            text-align:center; 
+            padding-top: 20px; 
+            padding-bottom: 20px; 
+            font-weight: bold; 
+            min-height: 200px; 
+          }
+	        .col__bob8{
+            background-color: #F2F2F2;
+          }
+	        .col__bob9{
+            background-color: #90523C;
+            text-align: center; 
+          }
+          .col__bob11
+          {
+            background-color: #FABE4E;
+          }
+          .col__article1{
+            background-color: #F2F2F2;
+          }
+/*картинки*/
+.img{
+height: 454px;
+width: 454px;
+border-radius: 50%;
+}
+.img3{
+height: 180px;
+width: 180px;
+border-radius: 50%;
+}
+
+.button1 {
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+  color: black;
+  font-weight: bold;
+  display: block;
+  width: 100px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 8px 16px;
+  margin: 20px 0;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: background-color 0.1s linear;
+  -moz-transition: background-color 0.1s linear;
+  -o-transition: background-color 0.1s linear;
+  transition: background-color 0.1s linear;
+}
+.button1 {
+  background-color: #fcc96b;
+  border: 1px solid #FABE4E;
+  margin: 20px 0;
+  
+}
+.button1:hover {
+  background-color: #fad389;
+ 
+}
+/*стиль для текста*/
+#leder {
+  padding-left: 30px;
+  font-family: 'Risque';
+  font-size: 30px;
+  background: linear-gradient(45deg, #2694A0 20%, #68357A 40%, #E28C26 60%, #B5284B 80%, #802338);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+#t1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#C1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+#C2 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+#C3 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+#C4 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+#t2 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+#t3 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+#t4 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.text{
+   font-size: 20px;
+   padding-left: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: unset;
+}
+/* переливающийся текст */
+.pouring {
+  font-size: 40px;
+  line-height: 50px;
+  font-family: 'Risque';
+  font-weight: 900;
+  position: relative;
+  background-color: #F2F2F2;
+  overflow: hidden;
+  text-transform: uppercase;
+  text-align: center;
+  border: 0;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.pouring:before {
+  content: '';
+  position: absolute;
+  filter: blur(10px);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: screen;
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 1em, #f08d15 1em, #FABE4E 50%), repeating-linear-gradient(45deg, #FABE4E, #FABE4E 1em, white 1em, #ffd29c 50%);
+  background-size: 3em 3em, 2em 2em;
+  animation-name: ani;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+}
+@keyframes ani {
+  from {
+      background-position: 0 0;
+  }
+  to {
+      background-position: 100% 0;
+  }
+}
+@media (max-width:690px) {    
+  .pouring {font-size: 20px;}    
+}
+#foter{
+font-family: 'Risque';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+position: absolute;
+width: 520px;
+height: 21px; 
+line-height: 23px; 
+color: white;
+}
+/*для слайдера*/
+.carousel-3d {
+  padding: 20px;
+  -webkit-perspective: 500px;
+  perspective: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  
+}
+.carousel-3d > * {
+  flex: 0 0 auto;
+}
+.carousel-3d figure {
+  margin: 0;
+  width: 50%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.carousel-3d figure img,
+.carousel-3d figure div {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  
+}
+.carousel-3d figure div:not(:first-of-type),
+.carousel-3d figure img:not(:first-of-type) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  
+}
+.carousel-3d nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0;
+  
+}
+.carousel-3d nav button {
+  flex: 0 0 auto;
+  cursor: pointer;
+  background-color: #fcc96b;
+  border: 1px solid #FABE4E;
+  padding: 5px 10px;
+  font-weight: bold;
+  transition: all .3s ease;
+}
+.carousel-3d nav button:hover {
+  background-color: #fad389;
+}
+.carousel-3d nav button {
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+  color: black;
+  display: block;
+  width: 100px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 8px 16px;
+  margin: 20px 20px;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: background-color 0.1s linear;
+  -moz-transition: background-color 0.1s linear;
+  -o-transition: background-color 0.1s linear;
+  transition: background-color 0.1s linear;
+  
+}
+
+

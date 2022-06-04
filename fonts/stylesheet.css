@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Risque';
+    src: url('Risque-Regular.eot');
+    src: local('Risque'), local('Risque-Regular'),
+        url('Risque-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Risque-Regular.woff2') format('woff2'),
+        url('Risque-Regular.woff') format('woff'),
+        url('Risque-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
